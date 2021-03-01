@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+186
+"BLOOD PRESSURE SOFT_ MAKER: Jorge Marquez___this software calculate wheter the patient has hypertension or normal blood pressure_ imput the value of the systolic pressure and diastolic"
+5
+1
+13
+V_Sys, V_Dist
+7
+0
+1
+50
+V_Sys<80 AND V_Dist<40 OR V_Sys>180 AND V_Dist>120
+7
+0
+1
+25
+V_Sys<=120 AND V_Dist<=80
+7
+0
+1
+52
+V_Sys>120 AND V_Sys<=139 OR V_Dist>80 AND V_Dist<=89
+7
+0
+1
+54
+V_Sys>=140 AND V_Sys<=159 OR V_Dist>=90 AND V_Dist<=99
+13
+4
+1
+32
+"You have hypertension status 1"
+13
+13
+4
+1
+27
+"Your have prehypertension"
+13
+13
+4
+1
+31
+"Your blood pressure is normal"
+13
+13
+4
+1
+71
+"ERR the system des not acept values lower than 80 and higher than 180"
+13
+1
