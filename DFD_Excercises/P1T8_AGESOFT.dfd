@@ -1,0 +1,36 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+147
+"AGESOFT_V1.0____MAKER: Jorge Marquez ____DESCRIPTION: This software use the year of birth to calculate age of a person____Type the age of birth: "
+5
+1
+11
+v_yearbirth
+7
+0
+1
+17
+v_yearbirth >2021
+6
+1
+5
+v_age
+18
+2020 - v_yearbirth
+4
+1
+47
+"The age of person is: ", v_age , " years old."
+13
+4
+1
+73
+"ERR: This year is not valid  the year of birth should be less than 2021"
+13
+1
