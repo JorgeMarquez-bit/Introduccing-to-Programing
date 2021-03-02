@@ -32,6 +32,10 @@ V_Sys>120 AND V_Sys<=139 OR V_Dist>80 AND V_Dist<=89
 1
 54
 V_Sys>=140 AND V_Sys<=159 OR V_Dist>=90 AND V_Dist<=99
+4
+1
+31
+"ERR The calibrator is damaged"
 13
 4
 1
