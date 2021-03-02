@@ -1,0 +1,107 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+133
+"PRINT THE DAY OF THE WEEK____MAKER: Jorge Marquez____ This software show you the day of a week entering a number____Type the number"
+5
+1
+5
+v_num
+7
+0
+1
+21
+v_num<=0 OR v_num > 7
+7
+0
+1
+7
+v_num=1
+7
+0
+1
+7
+v_num=2
+7
+0
+1
+7
+v_num=3
+7
+0
+1
+7
+v_num=4
+7
+0
+1
+7
+v_num=5
+7
+0
+1
+7
+v_num=6
+7
+0
+1
+7
+v_num=7
+4
+1
+29
+"ERR:The number is incorrect"
+13
+4
+1
+31
+"The day of the week is Sunday"
+13
+13
+4
+1
+33
+"The day of the week is Saturday"
+13
+13
+4
+1
+31
+"The day of the week is Friday"
+13
+13
+4
+1
+33
+"The day of the week is thursday"
+13
+13
+4
+1
+34
+"The day of the week is Wednesday"
+13
+13
+4
+1
+32
+"The day of the week is Tuesday"
+13
+13
+4
+1
+31
+"The day of the week is Monday"
+13
+13
+4
+1
+29
+"ERR:The number is incorrect"
+13
+1

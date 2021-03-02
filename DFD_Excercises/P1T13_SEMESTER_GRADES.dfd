@@ -1,0 +1,60 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+70
+"STUDENTS FINAL SEMESTERGRADE___MAKER:Jorge Marquez___Type the grade1"
+5
+1
+8
+v_grade1
+4
+1
+17
+"Type the grade2"
+5
+1
+8
+v_grade2
+4
+1
+17
+"Type the grade3"
+5
+1
+8
+v_grade3
+4
+1
+17
+"Type the grade4"
+5
+1
+8
+v_grade4
+7
+0
+1
+108
+v_grade1<0 OR v_grade1>5 OR v_grade2<0 OR v_grade2>5 OR v_grade3<0 OR v_grade3>5 OR v_grade4<0 OR v_grade4>5
+6
+1
+11
+v_notegrade
+53
+v_grade1*0.2+v_grade2*0.25+v_grade3*0.25+v_grade4*0.3
+4
+1
+35
+"Your final note is:  ",v_notegrade
+13
+4
+1
+30
+"ERR:The values are incorrect"
+13
+1
