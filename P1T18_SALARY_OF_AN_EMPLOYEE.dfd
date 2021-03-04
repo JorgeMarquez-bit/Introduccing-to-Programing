@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+117
+"SALARY OF AN EMPLOYEE____MAKER:Jorge Marquez____This software calculate a salary of an employer____Type your salary"
+5
+1
+6
+v_suel
+4
+1
+22
+"Type the days worked"
+5
+1
+5
+v_day
+7
+0
+1
+21
+v_day < 0 OR v_day>30
+7
+0
+1
+9
+v_suel<=0
+6
+1
+7
+v_total
+17
+(v_suel/30)*v_day
+4
+1
+61
+"Your salary of this days is: ",v_total, " pesos colombianos"
+13
+4
+1
+88
+"ERR: The number of the salary is incorrect because the number has to be greater than 0"
+13
+13
+4
+1
+80
+"ERR: The number of  the day is incorrect the range correct is between 0 and 30"
+13
+1
