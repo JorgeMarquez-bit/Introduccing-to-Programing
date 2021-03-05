@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+95
+"SOFT_GRADE_POINT_AVERAGE___MAKER:Jorge Marquez__this sotware calculate the average of a grade"
+4
+1
+28
+"Type the total of students"
+5
+1
+16
+v_total_students
+7
+0
+1
+19
+v_total_students<=0
+6
+2
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+16
+v_total_students
+1
+1
+1
+4
+1
+57
+"Type the note1 note2 and the note3: For the student ", i
+5
+1
+14
+v_n1,v_n2,v_n3
+6
+2
+6
+v_av_1
+35
+v_n1*0.2 + v_n2*0.3 + v_n3*0.5 /  3
+5
+v_sum
+12
+v_sum+v_av_1
+10
+6
+1
+9
+v_average
+24
+v_sum / v_total_students
+4
+1
+58
+"For ", v_total_students , " the average is:  ", v_average
+13
+4
+1
+37
+"The number of students is incorrect"
+13
+1
