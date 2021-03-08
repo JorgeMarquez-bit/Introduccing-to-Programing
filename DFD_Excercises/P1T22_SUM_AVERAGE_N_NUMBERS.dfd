@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+114
+"SOTF_SUM_AVERAGE_V1.0___MAKER:Jorge Marquez___This software calculate the sumatory and the average for N numbers"
+4
+1
+24
+"Type the total numbers"
+5
+1
+9
+v_total_N
+7
+0
+1
+12
+v_total_N<=0
+6
+2
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+9
+v_total_N
+1
+1
+1
+4
+1
+21
+"Type the number ", i
+5
+1
+5
+v_num
+6
+1
+5
+v_sum
+13
+v_sum + v_num
+10
+6
+1
+9
+v_average
+17
+v_sum / v_total_N
+4
+1
+74
+"For ", v_total_N," the sum is:  ",v_sum," and the average is: ",v_average
+13
+4
+1
+40
+"ERR:The number should be grater than 0"
+13
+1
