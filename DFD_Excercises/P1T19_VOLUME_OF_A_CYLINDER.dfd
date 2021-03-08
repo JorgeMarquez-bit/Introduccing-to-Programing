@@ -1,0 +1,37 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+104
+"SOFTVOLUMENOFCYLINDER___MAKER:Jorge Marquez___this software is for calculate the volume of a cylinder."
+4
+1
+26
+"Type the cylinder radius"
+5
+1
+8
+V_radius
+4
+1
+33
+"Type the height of the cylinder"
+5
+1
+8
+V_height
+6
+1
+6
+volume
+33
+3.14167 * V_radius ^ 2 * V_height
+4
+1
+41
+"the volume of the cylinder is:" , volume
+1
