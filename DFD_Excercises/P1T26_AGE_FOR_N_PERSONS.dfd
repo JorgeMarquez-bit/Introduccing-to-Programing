@@ -1,0 +1,92 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+160
+"SOFT_MINORS_AND_GRATER_PEOPLE____MAKER:Jorge Marquez___DESCRIPTION: his software calculate if N persons are minors or greaters----> Type the number of persons"
+5
+1
+9
+v_persons
+7
+0
+1
+12
+v_persons<=0
+6
+2
+8
+v_minors
+1
+0
+9
+v_greater
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+9
+v_persons
+1
+1
+1
+4
+1
+31
+"Type the ages of a person ", i
+5
+1
+5
+v_age
+7
+0
+1
+9
+v_age <=0
+7
+0
+1
+8
+v_age<18
+6
+1
+9
+v_greater
+13
+v_greater + 1
+13
+6
+1
+8
+v_minors
+10
+v_minors+1
+13
+13
+4
+1
+27
+"ERR: The age is incorrect"
+13
+10
+4
+1
+62
+"The minors are: ",v_minors," and the graters are: ",v_greater
+13
+4
+1
+72
+"ERR: The number of persons is incorrect it has to be grater tha zero 0"
+13
+1
