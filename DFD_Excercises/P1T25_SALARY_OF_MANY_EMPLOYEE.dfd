@@ -1,0 +1,103 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+176
+"SOFTSALARY_V 1.0__MAKER:Jorge Marquez__DESCRIPTION:This software calculate the everage_salary - the total salary and the higthest salary by N employees --->Type the employees"
+5
+1
+11
+v_total_emp
+7
+0
+1
+14
+v_total_emp<=0
+6
+3
+9
+v_avg_sal
+1
+0
+11
+v_total_sal
+1
+0
+10
+v_higg_sal
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+11
+v_total_emp
+1
+1
+1
+4
+1
+42
+"Type the gross salary by an employee ", i
+5
+1
+11
+v_gross_sal
+4
+1
+41
+"Type the days workes by an employee ", i
+5
+1
+13
+v_days_worked
+6
+2
+8
+v_salary
+32
+(v_gross_sal/30) * v_days_worked
+11
+v_total_sal
+21
+v_total_sal+ v_salary
+7
+0
+1
+21
+v_salary > v_higg_sal
+13
+6
+1
+10
+v_higg_sal
+8
+v_salary
+13
+10
+6
+1
+9
+v_avg_sal
+25
+v_total_sal / v_total_emp
+4
+1
+113
+"The total salary is: ", v_total_sal, " and the average is: ",v_avg_sal," and the highest salary is: ",v_higg_sal
+13
+4
+1
+51
+"ERR: The number enteren can not be less than zero"
+13
+1
