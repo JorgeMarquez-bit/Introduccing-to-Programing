@@ -1,0 +1,296 @@
+ Dfd (c)
+1
+1
+6
+0
+0
+4
+1
+118
+"SOFT-CALCULATOR_V1.0___MAKER:Jorge Marquez___DESCRIPTION: This soft simulate a calcualtor(sum - rest - mult - divis)"
+12
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+9
+1
+12
+V_OPTION !=0
+7
+0
+1
+11
+V_OPTION =1
+7
+0
+1
+11
+V_OPTION =2
+7
+0
+1
+11
+V_OPTION =3
+12
+1
+10
+V_DIVISION
+0
+13
+12
+1
+10
+P_MULTIPLI
+0
+13
+13
+12
+1
+11
+P_SUBSTRACT
+0
+13
+13
+12
+1
+5
+P_SUM
+0
+13
+12
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+11
+1
+2
+1
+5
+P_SUM
+0
+1
+53
+In this sub-programcalculate the sum for many numbers
+4
+1
+48
+"SUM__Type the total numbers do you want to sum"
+5
+1
+15
+v_total_numbers
+6
+1
+5
+v_sum
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_numbers
+1
+1
+1
+4
+1
+21
+"Type the number ", i
+5
+1
+5
+v_num
+6
+1
+5
+v_sum
+13
+v_sum + v_num
+10
+4
+1
+26
+"The total sum is:", v_sum
+3
+2
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+1
+56
+In this sub-program validate the option in the calculate
+4
+1
+78
+"Input your option: (1 ->SUM)-(2 ->REST)-(3 ->MULT)-(4 ->DIVI)-(0-> TO EXIT) "
+5
+1
+8
+v_option
+9
+1
+80
+v_option !=1 AND v_option !=2 AND v_option !=3 AND v_option !=4 AND v_option !=0
+4
+1
+123
+"ERR: Your option dont exist - Input again you option (1 ->SUM) OR (2 ->REST) OR (3 ->MULT) OR (4 ->DIVI) OR (0-> TO EXIT)"
+5
+1
+8
+v_option
+11
+3
+2
+1
+11
+P_SUBSTRACT
+0
+1
+59
+In this sub-program calculate the substract for two numbers
+4
+1
+35
+"SUBSTRACT__ Type the first number"
+5
+1
+6
+v_num1
+4
+1
+36
+"SUBSTRACT__ Type the second number"
+5
+1
+6
+v_num2
+6
+1
+6
+v_subs
+13
+v_num1-v_num2
+4
+1
+27
+"The substract is: ",v_subs
+3
+2
+1
+10
+P_MULTIPLI
+0
+1
+63
+In this sub-program realize the multiplication for many numbers
+4
+1
+70
+"MULTIPLICATION__Type the total numbers do you want to multiplication"
+5
+1
+11
+v_total_num
+6
+1
+7
+v_multi
+1
+1
+8
+1
+1
+i
+1
+1
+1
+1
+11
+v_total_num
+1
+1
+1
+4
+1
+21
+"Type the number ", i
+5
+1
+5
+v_num
+6
+1
+7
+v_multi
+15
+v_multi * v_num
+10
+4
+1
+33
+"The multiplicatios is: ",v_multi
+3
+2
+1
+10
+V_DIVISION
+0
+1
+59
+This sub-program calculate the division between two numbers
+4
+1
+40
+"DIVISION--> Type the numerator number "
+5
+1
+11
+v_numerator
+4
+1
+26
+"Type the divisor number "
+5
+1
+9
+v_divisor
+9
+1
+13
+v_divisor = 0
+4
+1
+89
+"ERR: The divisor number should be diferent than zero --->Type again the divisor number "
+5
+1
+9
+v_divisor
+11
+6
+1
+5
+v_div
+23
+v_numerator / v_divisor
+4
+1
+25
+"The division is: ",v_div
+3
