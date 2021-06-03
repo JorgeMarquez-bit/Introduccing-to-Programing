@@ -16,14 +16,14 @@ public class Main {
     }
 
         public static int[] series_fibonacci ( int v_limit, int[] fibonacci_array){
-            fibonacci_array[0] = 0;
-            fibonacci_array[1] = 1;
-            for (int i = 1; fibonacci_array[i - 1] + fibonacci_array[i] < v_limit; i++) {
-                fibonacci_array[i + 1] = fibonacci_array[i - 1] + fibonacci_array[i];
-                fibonacci_array[i + 2] = -1;
-            }
-            return fibonacci_array;
-        }
+    fibonacci_array[0] = 0;
+    fibonacci_array[1] = 1;
+    for (int i = 1; fibonacci_array[i - 1] + fibonacci_array[i] < v_limit; i++) {
+        fibonacci_array[i + 1] = fibonacci_array[i - 1] + fibonacci_array[i];
+        fibonacci_array[i + 2] = -1;
+    }
+    return fibonacci_array;
+}
 
 
     public static void p_show_info_program() {
